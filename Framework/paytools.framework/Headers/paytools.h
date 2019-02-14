@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AlipaySDK/AlipaySDK.h>
+#import "AlipaySDK.h"
 
 //! Project version number for paytools.
 FOUNDATION_EXPORT double paytoolsVersionNumber;
