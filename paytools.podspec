@@ -1,4 +1,4 @@
-version = "0.1.0";
+version = "0.1.2";
 
 Pod::Spec.new do |s|
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/lidongchun/paytools.git", :tag => "#{version}"}
     s.source_files  = "Framework/*.framework/**/*"
     s.exclude_files = "Classes/Exclude"
-    s.resource     = 'Framework/*.framework/AlipaySDK.bundle'
+    s.resource     = 'Framework/AlipaySDK.bundle'
     s.requires_arc = true
     #s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
     #s.libraries = "c++", "z"
