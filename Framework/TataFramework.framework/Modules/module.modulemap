@@ -1,6 +1,0 @@
-framework module TataFramework {
-  umbrella header "TataFramework.h"
-
-  export *
-  module * { export * }
-}
