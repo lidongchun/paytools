@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
     s.author       = { "houmanager" => "houmanager@hotmail.com" }
     s.platform     = :ios, "8.0"
     s.source       = { :git => "https://github.com/lidongchun/paytools.git", :tag => "#{version}"}
-    s.source_files  = "Framework/paytools.framework/**/*"
+    s.source_files  = "Framework/*.framework/**/*"
     s.exclude_files = "Classes/Exclude"
 
-    s.resource     = 'Framework/AlipaySDK.bundle'
+    s.resource     = 'Framework/*.framework/AlipaySDK.bundle'
     s.requires_arc = true
     #s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
     #s.libraries = "c++", "z"
